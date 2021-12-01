@@ -19,19 +19,126 @@
 </head>
 <body id="navbar">
     <!-- Main menu -->
-    <div id="navbar">
+    <nav id="navbar">
         <h1 class="logo">
             <span class="text-primary">
                 <i class="fas fa-book-open"> Platinum </i>
             </span>Financial
         </h1>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#what">Service</a></li>
-            <li><a href="#who">Who We Are</a></li>
-            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#home">Нүүр</a></li>
+            <li><a href="#what">Үйлчилгээ</a></li>
+            <li><a href="#who">Бид</a></li>
+            <li><a href="#contact">Холбогдох</a></li>
         </ul>
-    </div>
+    </nav>
+
+    <!-- Header: showcase -->
+    <header id="showcase">
+        <div class="showcase-content">
+            <h1 class="l-heading">Бидний боломжид хязгаар үгүй.</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus accusamus nulla aliquid mollitia incidunt adipisci.</p>  
+            <a href="#what" class="btn">Дэлгэрэнгүй</a>  
+            </div>
+    </header>
+
+    <!-- Section: Бид юу хийдэг вэ -->
+    <section id="what" class="bg-light py-1">
+        <div class="container">
+            <h2 class="m-heading text-center">Бид <span class="text-primary">юу </span>хийдэг вэ?</h2>
+            <div class="items">
+                <div class="item">
+                    <i class="fas fa-university fa-2x"></i>
+                    <h3>Хөрөнгө оруулалт</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nostrum eius, sequi eum soluta aspernatur officiis accusantium labore laboriosam. Iure optio numquam consequatur dolorum est totam corrupti quas eaque vero!</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-book-reader fa-2x"></i>
+                    <h3>Санхүүгийн зөвлөгөө</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nostrum eius, sequi eum soluta aspernatur officiis accusantium labore laboriosam. Iure optio numquam consequatur dolorum est totam corrupti quas eaque vero!</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-pencil-alt fa-2x"></i>
+                    <h3>Сургалт</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nostrum eius, sequi eum soluta aspernatur officiis accusantium labore laboriosam. Iure optio numquam consequatur dolorum est totam corrupti quas eaque vero!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secion: Бид хэн бэ? -->
+    <section id="who">
+        <div class="who-img"></div>
+        <div class="who-text bg-dark py-2">
+            <h2 class="m-heading"><span class="text-primary">Бид </span>хэн бэ?
+            </h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem odit quo explicabo maxime illo soluta ipsum. Explicabo incidunt illo delectus modi ipsum eveniet sequi placeat.</p>
+            <h3>Удирдлагы баг</h3>
+            <ul class="list">
+                <li>Батсайханы Дэлгэр:  Гүйцэтгэх захирал</li>
+                <li>Долгорын Гэрэлтуяа:  Санхүү эрхэлсэн захирал</li>
+                <li>Болдын Ганзориг:  Ерөнхий нягтлан</li>
+                <li>Сүрэнгийн Баярцэцэг:  Хөрөнгө оруулалтын менежер</li>
+                <li>Жаргалын Амарбаясгалан:  Сургалт хариуцсан менежер</li>
+            </ul>
+
+        </div>
+    </section>
+
+    <!-- Түншүүд -->
+    <section id="clients" class="py-1">
+        <div class="container">
+            <h2 class="m-heading text-center"><span class="text-primary">Манай </span>түншүүд</h2>
+            <div class="items">
+                <div>
+                    <img src="./images/logos/logo1.png" alt="client">
+                </div>
+                <div>
+                    <img src="./images/logos/logo2.png" alt="client">
+                </div>
+                <div>
+                    <img src="./images/logos/logo3.png" alt="client">
+                </div>
+                <div>
+                    <img src="./images/logos/logo4.png" alt="client">
+                </div>
+                <div>
+                    <img src="./images/logos/logo5.png" alt="client">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Contact -->
+    <section id="contact">
+        <div class="contact-form bg-primary px-2">
+            <h2 class="m-heading">Бидэнтэй холбоо барих</h2>
+            <p>Доорх тайлбаруудыг бөглөн бидэнтэй холбоо барина уу?</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Нэр</label>
+                    <input type="text" name="name" id="name" placeholder="Нэрээ оруулна уу?">
+                </div>
+                <div class="form-group">
+                    <label for="email">Имэйл</label>
+                    <input type="email" name="email" id="email" placeholder="Имэйлээ оруулна уу?">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Утасны дугаар</label>
+                    <input type="text" name="phone" id="phone" placeholder="Утасны дугаараа оруулна уу?">
+                </div>
+                <div class="form-group">
+                    <label for="message">Мессеж</label>
+                    <textarea name="message" id="name" placeholder="Захидал бичих"></textarea>
+                </div>
+                <input type="submit" value="Илгээх" class="btn btn-dark">
+            </form>
+        </div>
+        <div class="map">
+
+        </div>
+    </section>
     <script src="js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZeSNAu-579uLN5Tfx2YjnJmCNRjdYbDc&callback=initMap" async defer></script>
 </body>
 </html>
