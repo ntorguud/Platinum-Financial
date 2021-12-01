@@ -10,7 +10,8 @@
 }
 
 /* Icon position */
-#what .items .item i {
+#what .items .item i,
+#what .items .item h3 {
     margin-right: 1.3rem;
     align-self: center;
     margin-bottom: 0;
@@ -42,6 +43,10 @@
 
     #who .who-img {
         display: none;
+    }
+
+    #what .items {
+        display: block;
     }
 
     #clients .items img {

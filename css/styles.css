@@ -15,6 +15,7 @@ a {
 
 p {
     margin: 0.75rem 0;
+    text-align: left;
 }
 
 /* Utility classes styles */
@@ -179,6 +180,8 @@ p {
 
 #who div {
     flex: 1;
+    padding: 1rem;
+    text-align: center;
 }
 
 #who .who-img {

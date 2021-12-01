@@ -17,3 +17,7 @@ function initMap() {
         map: map
     })
 };
+
+$( function() {
+    $( ".accordion" ).accordion();
+  } );
